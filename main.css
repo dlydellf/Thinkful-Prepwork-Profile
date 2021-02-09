@@ -1,8 +1,9 @@
+
 :root {
   box-sizing: border-box;
 }
 body {
-  background: white;
+  background: fixed;
   background-size: cover;
   background-origin: border-box;
   color:black;
@@ -22,8 +23,20 @@ footer {
   text-align: center;
 }
 .extras{
-  color: blue;
+  color: skyblue;
 }
 .reqd {
   color: darkblue;
+}
+a:link {
+  color:blue;
+}
+a:visited {
+  color: red;
+}
+a:hover {
+  color:green;
+}
+a:active {
+  color: orange;
 }
